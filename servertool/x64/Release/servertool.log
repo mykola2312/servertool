@@ -1,0 +1,33 @@
+﻿Построение начато 25.01.2020 9:51:48.
+     1>Проект "D:\serverbrowser\servertool\servertool.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "x64\Release\servertool.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TC /errorReport:prompt main.c masterscan.c serverinfo.c serverlist.c servertool.c
+         main.c
+         masterscan.c
+         serverinfo.c
+         serverlist.c
+         servertool.c
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\serverbrowser\x64\Release\servertool.exe" /NOLOGO WS2_32.lib Comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\servertool.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\serverbrowser\x64\Release\servertool.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\serverbrowser\x64\Release\servertool.lib" /MACHINE:X64 x64\Release\servertool.res
+         x64\Release\main.obj
+         x64\Release\masterscan.obj
+         x64\Release\serverinfo.obj
+         x64\Release\serverlist.obj
+         x64\Release\servertool.obj
+         Создание кода
+         Создание кода завершено
+         servertool.vcxproj -> D:\serverbrowser\x64\Release\servertool.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\serverbrowser\x64\Release\servertool.exe;#1" /manifest x64\Release\servertool.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "x64\Release\servertool.unsuccessfulbuild" удаляется.
+         Обращение к "x64\Release\servertool.lastbuildstate".
+     1>Построение проекта "D:\serverbrowser\servertool\servertool.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:04.88
